@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'courses/index'
+  root 'courses#index'
 
-  root 'greeter#hello'
+  get 'greeter/hello'
   get 'greeter/goodbye'
 
   # The priority is based upon order of creation: first created -> highest priority.
